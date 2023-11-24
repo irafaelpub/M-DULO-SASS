@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_reset.scss",
+		"../scss/_variables.scss",
+		"../scss/_mixins.scss",
+		"../scss/_home.scss",
+		"../scss/_grid.scss"
+	],
+	"sourcesContent": [
+		"@import \"reset\";\r\n@import \"variables\";\r\n@import \"mixins\";\r\n@import \"home\";\r\n@import \"grid\";",
+		"* {\r\n    margin: 0;\r\n    padding: 0;\r\n}",
+		"",
+		"",
+		"",
+		".container {\r\n    width: 100%;\r\n    max-width: 121.6rem; /*121.6 soma com o padding para dar 124.6*/\r\n    padding: 0 1.5rem;\r\n    margin: 0 auto;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";;ACAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;;AIHD,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,QAAQ;EAAE,2CAA2C;EAChE,OAAO,EAAE,QAAQ;EACjB,MAAM,EAAE,MAAM;CACjB"
+}
